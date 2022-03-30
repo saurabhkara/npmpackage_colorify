@@ -1,0 +1,30 @@
+{
+  "name": "npm_package",
+  "version": "1.0.0",
+  "description": "My frrst NPM library",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "types": "lib/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkara/npmpackage_colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Saurabh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saurabhkara/npmpackage_colorify/issues"
+  },
+  "homepage": "https://github.com/saurabhkara/npmpackage_colorify#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+
+  "files": ["lib/**/*"]
+}
